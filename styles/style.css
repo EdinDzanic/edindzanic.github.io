@@ -34,3 +34,9 @@ footer{
 .list-inline-item i{
   font-size: 2rem;
 }
+
+.projects {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
